@@ -1,0 +1,21 @@
+module "azmonitor" {
+  source                           = "../azmonitor"
+  resource_group_name              = var.resource_group_name
+  location                         = var.location
+  virtual_network_name             = var.virtual_machine_name
+  virtual_network_address_space    = var.virtual_network_address_space
+  subnet_name                      = var.subnet_name
+  subnet_address_prefixes          = var.subnet_address_prefixes
+  public_ip_name                   = var.public_ip_name
+  network_interface_name           = var.network_interface_name
+  ip_configuration_name            = var.ip_configuration_name
+  virtual_machine_name             = var.virtual_machine_name
+  virtual_machine_size             = var.virtual_machine_name
+  os_admin_username                = var.os_admin_username
+  os_admin_password                = var.os_admin_password
+  storage_account_name             = var.storage_account_name
+  log_analytics_workspace_name     = var.log_analytics_workspace_name
+  log_analytics_solution_name      = var.log_analytics_solution_name
+  data_collection_rule_name        = var.data_collection_rule_name
+  data_collection_rule_association = var.data_collection_rule_association
+}

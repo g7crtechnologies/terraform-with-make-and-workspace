@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Define three variables
+additional_user=${additional_user}
+alt_datacenter=${alt_datacenter}
+datacenter=${datacenter}
+dns_name=${dns_name}
+environment=${environment}
+az_alt_region=${az_alt_region}
+az_region=${az_region}
+az_zone=${az_zone}
+instance_name=${instance_name}
+network_type=${network_type}
+number=${number}
+prefix=${prefix}
+release_type=${release_type}
+

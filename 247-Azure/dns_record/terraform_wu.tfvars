@@ -1,0 +1,11 @@
+dns_a_record_name    = "wcrslsaudioproc0"
+dns_a_record_ttl     = "300"
+dns_a_record_records = ["10.0.180.17"]
+dns_c_record_name    = "wcrslsaudioproc0"
+dns_c_record_ttl     = "300"
+dns_c_record_records = ["10.0.180.17"]
+domain_name          = "mydomain.com"
+location             = "westus"
+product              = "speech"
+count_of_vm          = 1
+pvt_dns_rg           = "tfs-rg-hub-wu-landingzone"
